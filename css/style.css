@@ -46,7 +46,16 @@ ul{
   font-size: 18px;
   color: var(--button-font-color);
 }
-
+.cmn-margin{
+  margin: 60px 0;
+}
+.section-title {
+  font-family: var(--secondary-font);
+  font-size: 48px;
+  line-height: 58px;
+  color: var(--secondary-font-color);
+  margin-bottom: 40px;
+}
 
 /* ========================= */
   /* Header Area CSS */
@@ -78,4 +87,51 @@ ul{
   font-size: 16px;
   line-height: 26px;
   color: var(--primary-font-color);
+}
+
+
+/* ========================= */
+  /* Women Area CSS */
+/* ========================= */
+.women p{
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--primary-font-color);
+}
+
+.women-card {
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(27, 2, 2, 0.25);
+  border-radius: 20px;
+}
+.women .price {
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+color: #FABE4C;
+}
+
+.women-card img {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0%);
+  margin-bottom: 30px;
+  background: #F1F1F1;
+  border-radius: 10px;
+  padding: 5px 40px;
+}
+.women-card .product-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--secondary-font-color)
+}
+.women-card p{
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--primary-font-color);
+}
+.women-card .cmn-btn{
+  padding: 10px 24px;
 }
