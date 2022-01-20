@@ -7,10 +7,11 @@ body{
 :root{
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Bebas Neue', cursive;
-  --optional-font: 'Montserrat', sans-serif;
   --primary-font-color: #3E3E3E;
   --secondary-font-color: #363958;
   --menu-color: #3C3C3C;
+  --button-bg-color: #A4BC46;
+  --button-font-color: #FFFFFF;
 }
 
 /* ========================= */
@@ -24,17 +25,57 @@ ul{
   padding: 0;
   list-style: none;
 }
-
-
+.cmn-btn {
+  display: inline-block;
+  background-color: var(--button-bg-color);
+  padding: 18px 34px;
+  border-radius: 10px;
+  color: var(--button-font-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  transition: all .5s ease;
+}
+.cmn-btn:hover{
+  background: var(--secondary-font-color);
+  color: var(--button-font-color);
+}
+.cmn-btn i {
+  margin-right: 10px;
+  font-size: 18px;
+  color: var(--button-font-color);
+}
 
 
 /* ========================= */
   /* Header Area CSS */
 /* ========================= */
+.header {
+  background: #FFFBF0;
+  padding-bottom: 80px;
+}
 .header .navbar {
   padding: 39px 0;
 }
 .header .navbar-nav .nav-link{
   color: var(--menu-color);
   margin-left: 20px;
+}
+
+.main h1 {
+  font-size: 80px;
+  line-height: 96px;
+  text-transform: uppercase;
+  color: #FABE4C;
+  font-family: var(--secondary-font);
+}
+
+.main h1 > span {
+  color: var(--secondary-font-color);
+}
+.main p{
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--primary-font-color);
 }
